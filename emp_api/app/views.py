@@ -8,3 +8,5 @@ from .serializers import *
 class emp_view(viewsets.ModelViewSet):
     queryset=Employee.objects.all()
     serializer_class=Emp
+
+    # ------------completed project-----------------
